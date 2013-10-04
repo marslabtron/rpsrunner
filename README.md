@@ -1,4 +1,12 @@
-rpsrunner
-=========
+Rock Paper Scissors Runner
+=====================
 
-Rock Paper Scissors
+# Installation
+
+npm install
+
+# Usage
+
+grunt watch
+
+edit bots in bots/ folder, watch them fight.
