@@ -14,12 +14,13 @@ Visit http://www.rpscontest.com/leaderboard
 
 # Usage
 
-Bring your fighters into the fight via symlink.
+1. Bring your fighters into the fight via symlink.
 
-example:
-    cd fighting_ring
-    ln -s ../bots/momo_bot.py momo_bot.py
+   ```
+   cd fighting_ring
+   ln -s ../bots/momo_bot.py momo_bot.py
+   ```
 
-grunt watch
+2. run ```grunt watch```
 
-edit bots in bots/ folder, watch them fight.
+3. Edit bots in bots/ folder, watch them fight.
