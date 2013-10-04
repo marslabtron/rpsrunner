@@ -36,3 +36,4 @@ nosetests.xml
 
 # node stuff
 node_modules
+fighting_ring/*.py

@@ -4,9 +4,9 @@ module.exports = ->
     pkg: @file.readJSON 'package.json'
     exec:
       test:
-        command: 'python rpsrunner.py -t 2 bots/*.py'
+        command: 'python rpsrunner.py -t 2 fighting_ring/*.py'
     watch:
-      files: ['bots/*.py']
+      files: ['fighting_ring/*.py']
       tasks: ['test']
 
   # Grunt plugins used for building
